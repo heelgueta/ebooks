@@ -24,7 +24,10 @@ slugify <- function(text) {
     str_remove("^-|-$")
 }
 
-# Segmenta un archivo .md por encabezados ## a ####
+# Inicializa contador global para prefijos jerárquicos
+global_counter <- 0
+
+# Segmenta un archivo .md por encabezados # a ####
 split_md_file <- function(input_file, output_dir) {
   lines <- readLines(input_file, encoding = "UTF-8")
   file_base <- tools::file_path_sans_ext(basename(input_file))
@@ -40,12 +43,16 @@ split_md_file <- function(input_file, output_dir) {
       level = as.integer(str_match(str_trim(raw), "^(#+) ")[, 2] |> nchar()),
       title = str_trim(str_remove(raw, "^#{1,4} ")),
       slug = slugify(title),
-      filename = sprintf("%s-%02d-%s.md", file_base, row_number(), slug),
+      prefijo = map_chr(seq_along(title), function(i) {
+        val <- sprintf("p%04d", global_counter)
+        global_counter <<- global_counter + 10
+        val
+      }),
+      filename = sprintf("%s-%s.md", prefijo, slug),
       end = lead(line_num, default = length(lines) + 1) - 1
     )
   
-  
-  headers |> pwalk(function(line_num, raw, level, title, slug, filename, end) {
+  headers |> pwalk(function(line_num, raw, level, title, slug, prefijo, filename, end) {
     section_lines <- lines[line_num:end]
     writeLines(section_lines, file.path(output_dir, filename), useBytes = TRUE)
   })
@@ -63,7 +70,6 @@ generate_summary <- function(file_refs, output_file = "gitbook/SUMMARY.md") {
     lvl <- suppressWarnings(as.integer(ref$level))
     if (is.na(lvl) || lvl < 1 || lvl > 6) lvl <- 1
     
-    # Este ajuste es la clave: 2 espacios * (nivel - 1)
     indent <- paste(rep("  ", lvl - 1), collapse = "")
     line <- sprintf("%s* [%s](%s)", indent, ref$title, ref$file)
     
@@ -71,11 +77,11 @@ generate_summary <- function(file_refs, output_file = "gitbook/SUMMARY.md") {
   }
 }
 
-
 # Ejecuta el proceso completo
 list.files("src", pattern = "parte.*\\.md", full.names = TRUE) |> walk(add_final_line)
 
 all_files <- list.files("src", pattern = "parte.*\\.md", full.names = TRUE)
+global_counter <- 0
 refs_list <- map(all_files, split_md_file, output_dir = "gitbook")
 refs <- bind_rows(refs_list)
 

@@ -105,6 +105,8 @@ _(Sección en desarrollo: **Naturaleza**)_
 
 <!--force-render-->
 
+[[componente:tabs:p1223]]
+
 _(Sección en desarrollo: **Medida**)_
 
 ---
@@ -152,6 +154,7 @@ _(Sección en desarrollo: **3. Resumir**)_
 ### Frecuencia
 
 <!--force-render-->
+[[componente:tabs:p1331]]
 
 _(Sección en desarrollo: **Frecuencia**)_
 
