@@ -30,34 +30,21 @@ split_md_file <- function(input_file, output_dir) {
   file_base <- tools::file_path_sans_ext(basename(input_file))
   dir.create(output_dir, showWarnings = FALSE, recursive = TRUE)
   
-<<<<<<< HEAD
   header_lines <- grep("^#{1,4} ", lines)
-=======
-  header_lines <- grep("^#{2,4} ", lines)
->>>>>>> e82fc5d4c551baed1d297fa35403ebf50fdea6a7
   
   headers <- tibble(
     line_num = header_lines,
     raw = lines[header_lines]
   ) |>
     mutate(
-<<<<<<< HEAD
       level = as.integer(str_match(str_trim(raw), "^(#+) ")[, 2] |> nchar()),
       title = str_trim(str_remove(raw, "^#{1,4} ")),
-=======
-      # EXTRAEMOS NÚMERO DE # CORRECTAMENTE
-      level = as.integer(str_match(str_trim(raw), "^(#+) ")[, 2] |> nchar()),
-      title = str_trim(str_remove(raw, "^#{2,4} ")),
->>>>>>> e82fc5d4c551baed1d297fa35403ebf50fdea6a7
       slug = slugify(title),
       filename = sprintf("%s-%02d-%s.md", file_base, row_number(), slug),
       end = lead(line_num, default = length(lines) + 1) - 1
     )
   
-<<<<<<< HEAD
   
-=======
->>>>>>> e82fc5d4c551baed1d297fa35403ebf50fdea6a7
   headers |> pwalk(function(line_num, raw, level, title, slug, filename, end) {
     section_lines <- lines[line_num:end]
     writeLines(section_lines, file.path(output_dir, filename), useBytes = TRUE)
@@ -74,7 +61,6 @@ generate_summary <- function(file_refs, output_file = "gitbook/SUMMARY.md") {
     ref <- file_refs[i, ]
     
     lvl <- suppressWarnings(as.integer(ref$level))
-<<<<<<< HEAD
     if (is.na(lvl) || lvl < 1 || lvl > 6) lvl <- 1
     
     # Este ajuste es la clave: 2 espacios * (nivel - 1)
@@ -86,19 +72,6 @@ generate_summary <- function(file_refs, output_file = "gitbook/SUMMARY.md") {
 }
 
 
-=======
-    if (is.na(lvl) || lvl < 2 || lvl > 6) lvl <- 2
-    
-    indent <- paste(rep("  ", lvl - 2), collapse = "")
-    line <- sprintf("%s* [%s](%s)", indent, ref$title, ref$file)
-    
-    if (!is.na(line) && nzchar(line)) {
-      cat(line, "\n", file = output_file, append = TRUE)
-    }
-  }
-}
-
->>>>>>> e82fc5d4c551baed1d297fa35403ebf50fdea6a7
 # Ejecuta el proceso completo
 list.files("src", pattern = "parte.*\\.md", full.names = TRUE) |> walk(add_final_line)
 
