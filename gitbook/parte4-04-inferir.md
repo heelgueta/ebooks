@@ -1,3 +1,6 @@
 ## Inferir
-[Necesidad de avanzar hacia inferencia.]
+
+<!--force-render-->
+
+_(Sección en desarrollo: **Inferir**)_
 

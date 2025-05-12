@@ -1,2 +1,8 @@
 #### Rol
-[Tipos de variable según rol.]
+
+<!--force-render-->
+
+_(Sección en desarrollo: **Rol**)_
+
+---
+

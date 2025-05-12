@@ -1,2 +1,8 @@
 #### Naturaleza
-[Tipos de variable según naturaleza.]
+
+<!--force-render-->
+
+_(Sección en desarrollo: **Naturaleza**)_
+
+---
+

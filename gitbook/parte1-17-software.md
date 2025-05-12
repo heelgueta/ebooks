@@ -1,2 +1,8 @@
 #### Software
-[Herramientas disponibles.]
+
+<!--force-render-->
+
+_(Sección en desarrollo: **Software**)_
+
+---
+

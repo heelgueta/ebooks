@@ -1,8 +1,29 @@
 # Presentación
+
+<!--force-render-->
+
+_(Sección en desarrollo: **Presentación**)_
+
+
 ## Contexto
-[Explicar que es un libro en desarrollo para clases en la UMAG.]
+
+<!--force-render-->
+
+_(Sección en desarrollo: **Contexto**)_
+
+---
+
 ## Alternativas
-[Mencionar otros libros y recursos complementarios.]
+
+<!--force-render-->
+
+_(Sección en desarrollo: **Alternativas**)_
+
+---
+
 ## Contenidos
-[Explicar que hay 3 secciones principales: Introducción, Numéricas, Relaciones.]
+
+<!--force-render-->
+
+_(Sección en desarrollo: **Contenidos**)_
 

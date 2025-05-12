@@ -1,2 +1,8 @@
 ## Alternativas
-[Mencionar otros libros y recursos complementarios.]
+
+<!--force-render-->
+
+_(Sección en desarrollo: **Alternativas**)_
+
+---
+

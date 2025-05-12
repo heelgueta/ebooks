@@ -1,2 +1,8 @@
 #### Formatos
-[Distintos tipos de archivo y estructuras.]
+
+<!--force-render-->
+
+_(Sección en desarrollo: **Formatos**)_
+
+---
+

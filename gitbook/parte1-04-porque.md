@@ -1,2 +1,8 @@
 #### Porqué
-[Motivos para aprender estadística.]
+
+<!--force-render-->
+
+_(Sección en desarrollo: **Porqué**)_
+
+---
+

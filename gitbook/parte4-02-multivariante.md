@@ -1,2 +1,8 @@
 ## Multivariante
-[Explorar visualmente análisis multivariado.]
+
+<!--force-render-->
+
+_(Sección en desarrollo: **Multivariante**)_
+
+---
+

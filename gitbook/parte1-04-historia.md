@@ -1,2 +1,8 @@
 #### Historia
-[Breve historia de la estadística.]
+
+<!--force-render-->
+
+_(Sección en desarrollo: **Historia**)_
+
+---
+

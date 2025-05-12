@@ -1,3 +1,6 @@
 ## Contenidos
-[Explicar que hay 3 secciones principales: Introducción, Numéricas, Relaciones.]
+
+<!--force-render-->
+
+_(Sección en desarrollo: **Contenidos**)_
 

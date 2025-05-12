@@ -1,2 +1,8 @@
 ### 2.1 Datos
-[Concepto de dato y sujeto.]
+
+<!--force-render-->
+
+_(Sección en desarrollo: **2.1 Datos**)_
+
+---
+

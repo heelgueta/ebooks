@@ -1,2 +1,8 @@
 ## Limitaciones
-[Límites de la estadística descriptiva.]
+
+<!--force-render-->
+
+_(Sección en desarrollo: **Limitaciones**)_
+
+---
+

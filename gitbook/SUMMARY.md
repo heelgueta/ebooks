@@ -34,7 +34,7 @@
       * [Accesibilidad](parte1-29-accesibilidad.md) 
       * [Histograma](parte1-30-histograma.md) 
     * [Desafíos](parte1-31-desafios.md) 
-* [II. Numéricas](parte2-01-ii-numericas.md) 
+* [II. Númericas](parte2-01-ii-numericas.md) 
   * [4. Posición](parte2-02-4-posicion.md) 
     * [4.1 Cuantiles](parte2-03-4-1-cuantiles.md) 
       * [Mitad](parte2-04-mitad.md) 

@@ -1,3 +1,6 @@
 ### Desafíos
-[Problemas comunes y reflexión.]
+
+<!--force-render-->
+
+_(Sección en desarrollo: **Desafíos**)_
 

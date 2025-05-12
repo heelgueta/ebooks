@@ -1,2 +1,8 @@
 #### Medida
-[Tipos de escala de medición.]
+
+<!--force-render-->
+
+_(Sección en desarrollo: **Medida**)_
+
+---
+

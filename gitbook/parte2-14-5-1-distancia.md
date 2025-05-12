@@ -1,2 +1,8 @@
 ### 5.1 Distancia
-[Varianza, desviación estándar, desviación media.]
+
+<!--force-render-->
+
+_(Sección en desarrollo: **5.1 Distancia**)_
+
+---
+

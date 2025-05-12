@@ -1,8 +1,28 @@
 # Cierre
+<!--force-render-->
+
+_(Sección en desarrollo: **Cierre**)_
+
+
 ## Multivariante
-[Explorar visualmente análisis multivariado.]
+
+<!--force-render-->
+
+_(Sección en desarrollo: **Multivariante**)_
+
+---
+
 ## Limitaciones
-[Límites de la estadística descriptiva.]
+
+<!--force-render-->
+
+_(Sección en desarrollo: **Limitaciones**)_
+
+---
+
 ## Inferir
-[Necesidad de avanzar hacia inferencia.]
+
+<!--force-render-->
+
+_(Sección en desarrollo: **Inferir**)_
 

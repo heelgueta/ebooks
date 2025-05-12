@@ -1,2 +1,8 @@
 ### 1.2 Definiciones
-[Definiciones básicas de estadística.]
+
+<!--force-render-->
+
+_(Sección en desarrollo: **1.2 Definiciones**)_
+
+---
+

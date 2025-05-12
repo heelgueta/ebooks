@@ -1,2 +1,8 @@
 #### Media
-[Ventajas y limitaciones.]
+
+<!--force-render-->
+
+_(Sección en desarrollo: **Media**)_
+
+---
+

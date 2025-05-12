@@ -1,2 +1,8 @@
 ### 1.3 Advertencias
-[Mal uso de la estadística y ejemplos problemáticos.]
+
+<!--force-render-->
+
+_(Sección en desarrollo: **1.3 Advertencias**)_
+
+---
+

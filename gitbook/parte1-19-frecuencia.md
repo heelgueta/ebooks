@@ -1,2 +1,8 @@
 ### Frecuencia
-[Tablas de frecuencia.]
+
+<!--force-render-->
+
+_(Sección en desarrollo: **Frecuencia**)_
+
+---
+

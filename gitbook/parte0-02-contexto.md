@@ -1,2 +1,8 @@
 ## Contexto
-[Explicar que es un libro en desarrollo para clases en la UMAG.]
+
+<!--force-render-->
+
+_(Sección en desarrollo: **Contexto**)_
+
+---
+
