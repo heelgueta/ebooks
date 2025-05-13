@@ -1,188 +1,220 @@
-# III. Relaciones
+# II. Númericas
 
 <!--force-render-->
 
-_(Sección en desarrollo: ** III. Relaciones **)_
+_(Sección en desarrollo: ** II. Numéricas **)_
 
-## 7. Contraste
+## 4. Posición
 
 <!--force-render-->
 
-_(Sección en desarrollo: **7. Contraste**)_
+_(Sección en desarrollo: **4. Posición**)_
 
 ---
 
-### 7.1 Descriptivos
+### 4.1 Cuantiles
 
 <!--force-render-->
 
-_(Sección en desarrollo: **7.1 Descriptivos**)_
+_(Sección en desarrollo: **4.1 Cuantiles**)_
 
 ---
 
-### 7.2 Gráficos
+#### Mitad
 
 <!--force-render-->
 
-_(Sección en desarrollo: **7.2 Gráficos**)_
+_(Sección en desarrollo: **Mitad**)_
 
 ---
 
-### 7.3 Limitaciones
+#### Cuartiles
 
 <!--force-render-->
 
-_(Sección en desarrollo: **7.3 Limitaciones**)_
+_(Sección en desarrollo: **Cuartiles**)_
 
 ---
 
-#### La necesidad de estadística inferencial
+#### Otros
 
 <!--force-render-->
 
-_(Sección en desarrollo: **La necesidad de estadística inferencial**)_
+_(Sección en desarrollo: **Otros**)_
 
 ---
 
-## 8. Cruce
+### 4.2 Rangos
 
 <!--force-render-->
 
-_(Sección en desarrollo: **8. Cruce**)_
+_(Sección en desarrollo: **4.2 Rangos**)_
 
 ---
 
-### 8.1 Contingencia
+#### Rango
 
 <!--force-render-->
 
-_(Sección en desarrollo: **8.1 Contingencia**)_
+_(Sección en desarrollo: **Rango**)_
 
 ---
 
-### 8.2 Proporciones
+#### Intercuartil
 
 <!--force-render-->
 
-_(Sección en desarrollo: **8.2 Proporciones**)_
+_(Sección en desarrollo: **Intercuartil**)_
 
 ---
 
-### 8.3 Gráficos
+### 4.3 Gráficos
 
 <!--force-render-->
 
-_(Sección en desarrollo: **8.3 Gráficos**)_
+_(Sección en desarrollo: **4.3 Gráficos**)_
 
 ---
 
-#### Agrupado
+#### Boxplot
 
 <!--force-render-->
 
-_(Sección en desarrollo: **Agrupado**)_
+_(Sección en desarrollo: **Boxplot**)_
 
 ---
 
-#### Apilado
+#### Problemas
 
 <!--force-render-->
 
-_(Sección en desarrollo: **Apilado**)_
+_(Sección en desarrollo: **Problemas**)_
 
 ---
 
-#### Escalado
+#### Alternativas
 
 <!--force-render-->
 
-_(Sección en desarrollo: **Escalado**)_
+_(Sección en desarrollo: **Alternativas**)_
 
 ---
 
-#### Mosaico
+## 5. Variabilidad
 
 <!--force-render-->
 
-_(Sección en desarrollo: **Mosaico**)_
+_(Sección en desarrollo: **5. Variabilidad**)_
 
 ---
 
-## 9. Asociación
+### 5.1 Distancia
 
 <!--force-render-->
 
-_(Sección en desarrollo: **9. Asociación**)_
+_(Sección en desarrollo: **5.1 Distancia**)_
 
 ---
 
-### 9.1 Dispersión
+### 5.2 Distribución
 
 <!--force-render-->
 
-_(Sección en desarrollo: **9.1 Dispersión**)_
+_(Sección en desarrollo: **5.2 Distribución**)_
 
 ---
 
-### 9.2 Correlación
+### 5.3 Normalidad
 
 <!--force-render-->
 
-_(Sección en desarrollo: **9.2 Correlación**)_
+_(Sección en desarrollo: **5.3 Normalidad**)_
 
 ---
 
-#### Pearson
+## 6. Estandarización
 
 <!--force-render-->
 
-_(Sección en desarrollo: **Pearson**)_
+_(Sección en desarrollo: **6. Estandarización**)_
 
 ---
 
-#### Linealidad
+### 6.1 Puntajes
 
 <!--force-render-->
 
-_(Sección en desarrollo: **Linealidad**)_
+_(Sección en desarrollo: **6.1 Puntajes**)_
 
 ---
 
-#### Atípicos
+#### Puntajes Z
 
 <!--force-render-->
 
-_(Sección en desarrollo: **Atípicos**)_
+_(Sección en desarrollo: **Puntajes Z**)_
 
 ---
 
-#### Causalidad
+#### Z a PB
 
 <!--force-render-->
 
-_(Sección en desarrollo: **Causalidad**)_
+_(Sección en desarrollo: **Z a PB**)_
 
 ---
 
-### 9.3 Regresión
+#### Otras estandarizaciones
 
 <!--force-render-->
 
-_(Sección en desarrollo: **9.3 Regresión**)_
+_(Sección en desarrollo: **Otras estandarizaciones**)_
 
 ---
 
-#### Geometría
+### 6.2 Transformaciones
 
 <!--force-render-->
 
-_(Sección en desarrollo: **Geometría**)_
+_(Sección en desarrollo: **6.2 Transformaciones**)_
 
 ---
 
-#### Predicción
+#### Z a T
 
 <!--force-render-->
 
-_(Sección en desarrollo: **Predicción**)_
+_(Sección en desarrollo: **Z a T**)_
+
+---
+
+#### Z a percentil
+
+<!--force-render-->
+
+_(Sección en desarrollo: **Z a percentil**)_
+
+---
+
+### 6.3 Comparaciones
+
+<!--force-render-->
+
+_(Sección en desarrollo: **6.3 Comparaciones**)_
+
+---
+
+#### Z a Percentil
+
+<!--force-render-->
+
+_(Sección en desarrollo: **Z a Percentil**)_
+
+---
+
+#### Percentil a Z
+
+<!--force-render-->
+
+_(Sección en desarrollo: **Percentil a Z**)_
 

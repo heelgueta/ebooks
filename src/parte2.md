@@ -1,220 +1,260 @@
-# II. Númericas
+# I. Introducción
 
 <!--force-render-->
 
-_(Sección en desarrollo: ** II. Numéricas **)_
+_(Sección en desarrollo: ** I. Introducción **)_
 
-## 4. Posición
+
+## 1. Conocer
 
 <!--force-render-->
 
-_(Sección en desarrollo: **4. Posición**)_
+_(Sección en desarrollo: **1. Conocer**)_
 
 ---
 
-### 4.1 Cuantiles
+### 1.1 Trasfondo
 
 <!--force-render-->
 
-_(Sección en desarrollo: **4.1 Cuantiles**)_
+_(Sección en desarrollo: **1.1 Trasfondo**)_
+
+<!-- BEGIN:TABS -->
+{% tabs %}
+{% tab title="Texto" %}
+Texto explicativo en tab.
+{% endtab %}
+
+{% tab title="Ejemplo" %}
+Código o datos aquí.
+{% endtab %}
+{% endtabs %}
+<!-- END:TABS -->
 
 ---
 
-#### Mitad
+#### Porqué
 
 <!--force-render-->
 
-_(Sección en desarrollo: **Mitad**)_
+_(Sección en desarrollo: **Porqué**)_
 
 ---
 
-#### Cuartiles
+#### Historia
 
 <!--force-render-->
 
-_(Sección en desarrollo: **Cuartiles**)_
+_(Sección en desarrollo: **Historia**)_
 
 ---
 
-#### Otros
+#### Conocimiento
 
 <!--force-render-->
 
-_(Sección en desarrollo: **Otros**)_
+_(Sección en desarrollo: **Conocimiento**)_
 
 ---
 
-### 4.2 Rangos
+### 1.2 Definiciones
 
 <!--force-render-->
 
-_(Sección en desarrollo: **4.2 Rangos**)_
+_(Sección en desarrollo: **1.2 Definiciones**)_
 
 ---
 
-#### Rango
+### 1.3 Advertencias
 
 <!--force-render-->
 
-_(Sección en desarrollo: **Rango**)_
+_(Sección en desarrollo: **1.3 Advertencias**)_
 
 ---
 
-#### Intercuartil
+## 2. Organizar
 
 <!--force-render-->
 
-_(Sección en desarrollo: **Intercuartil**)_
+_(Sección en desarrollo: **2. Organizar**)_
 
 ---
 
-### 4.3 Gráficos
+### 2.1 Datos
 
 <!--force-render-->
 
-_(Sección en desarrollo: **4.3 Gráficos**)_
+_(Sección en desarrollo: **2.1 Datos**)_
 
 ---
 
-#### Boxplot
+### 2.2 Variables
 
 <!--force-render-->
 
-_(Sección en desarrollo: **Boxplot**)_
+_(Sección en desarrollo: **2.2 Variables**)_
 
 ---
 
-#### Problemas
+#### Rol
 
 <!--force-render-->
 
-_(Sección en desarrollo: **Problemas**)_
+_(Sección en desarrollo: **Rol**)_
 
 ---
 
-#### Alternativas
+#### Naturaleza
 
 <!--force-render-->
 
-_(Sección en desarrollo: **Alternativas**)_
+_(Sección en desarrollo: **Naturaleza**)_
 
 ---
 
-## 5. Variabilidad
+#### Medida
 
 <!--force-render-->
 
-_(Sección en desarrollo: **5. Variabilidad**)_
+[[componente:tabs:p1223]]
+
+_(Sección en desarrollo: **Medida**)_
 
 ---
 
-### 5.1 Distancia
+### 2.3 Matriz
 
 <!--force-render-->
 
-_(Sección en desarrollo: **5.1 Distancia**)_
+_(Sección en desarrollo: **2.3 Matriz**)_
 
 ---
 
-### 5.2 Distribución
+#### Orden
 
 <!--force-render-->
 
-_(Sección en desarrollo: **5.2 Distribución**)_
+_(Sección en desarrollo: **Orden**)_
 
 ---
 
-### 5.3 Normalidad
+#### Software
 
 <!--force-render-->
 
-_(Sección en desarrollo: **5.3 Normalidad**)_
+_(Sección en desarrollo: **Software**)_
 
 ---
 
-## 6. Estandarización
+#### Formatos
 
 <!--force-render-->
 
-_(Sección en desarrollo: **6. Estandarización**)_
+_(Sección en desarrollo: **Formatos**)_
 
 ---
 
-### 6.1 Puntajes
+## 3. Resumir
 
 <!--force-render-->
 
-_(Sección en desarrollo: **6.1 Puntajes**)_
+_(Sección en desarrollo: **3. Resumir**)_
 
 ---
 
-#### Puntajes Z
+### Frecuencia
 
 <!--force-render-->
+[[componente:tabs:p1331]]
 
-_(Sección en desarrollo: **Puntajes Z**)_
+_(Sección en desarrollo: **Frecuencia**)_
 
 ---
 
-#### Z a PB
+### Tendencia
 
 <!--force-render-->
 
-_(Sección en desarrollo: **Z a PB**)_
+_(Sección en desarrollo: **Tendencia**)_
 
 ---
 
-#### Otras estandarizaciones
+#### Moda
 
 <!--force-render-->
 
-_(Sección en desarrollo: **Otras estandarizaciones**)_
+_(Sección en desarrollo: **Moda**)_
 
 ---
 
-### 6.2 Transformaciones
+#### Media
 
 <!--force-render-->
 
-_(Sección en desarrollo: **6.2 Transformaciones**)_
+_(Sección en desarrollo: **Media**)_
 
 ---
 
-#### Z a T
+#### Mediana
 
 <!--force-render-->
 
-_(Sección en desarrollo: **Z a T**)_
+_(Sección en desarrollo: **Mediana**)_
 
 ---
 
-#### Z a percentil
+### Gráficos
 
 <!--force-render-->
 
-_(Sección en desarrollo: **Z a percentil**)_
+_(Sección en desarrollo: **Gráficos**)_
 
 ---
 
-### 6.3 Comparaciones
+#### Barra simple
 
 <!--force-render-->
 
-_(Sección en desarrollo: **6.3 Comparaciones**)_
+_(Sección en desarrollo: **Barra simple**)_
 
 ---
 
-#### Z a Percentil
+#### Sectores
 
 <!--force-render-->
 
-_(Sección en desarrollo: **Z a Percentil**)_
+_(Sección en desarrollo: **Sectores**)_
 
 ---
 
-#### Percentil a Z
+#### Horrores
 
 <!--force-render-->
 
-_(Sección en desarrollo: **Percentil a Z**)_
+_(Sección en desarrollo: **Horrores**)_
+
+---
+
+#### Accesibilidad
+
+<!--force-render-->
+
+_(Sección en desarrollo: **Accesibilidad**)_
+
+---
+
+#### Histograma
+
+<!--force-render-->
+
+_(Sección en desarrollo: **Histograma**)_
+
+---
+
+### Desafíos
+
+<!--force-render-->
+
+_(Sección en desarrollo: **Desafíos**)_
 
