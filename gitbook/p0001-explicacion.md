@@ -7,13 +7,14 @@ Quienes me conocen, ya lo saben: me gusta explicar con ejemplos absurdos, hacer 
 <!-- BEGIN:IMG -->
 
 <figure>
-  <img src="img/pikachu.png" alt="Pikachu" style="width: 250px; display: block; margin: 0 auto;">
+  <img src="https://raw.githubusercontent.com/heelgueta/edesc/refs/heads/main/src/img/pikachu.png" alt="Pikachu" width="188">
   <figcaption>
-    💡 Como todo el mundo sabe, Pikachu es el Pokémon No. 25 de la Pokédex Nacional. En promedio, los Pikachu miden 0.4 mts. y pesan 6 kgs.
+    Como todo el mundo sabe, Pikachu es el Pokémon No. 25 de la Pokédex Nacional, y en promedio, miden 0.4 metros y pesan 6.0 kilogramos.</p>
   </figcaption>
 </figure>
 
 <!-- END:IMG -->
+
 
 Mi intención principal es que este material sea útil para repasar, para profundizar, para actualizarse. Que funcione como un recurso vivo, que pueda corregirse, expandirse, adaptarse. Una de las ventajas de tenerlo online es justamente esa: la posibilidad de evolucionar con el tiempo. Está pensado en un nivel intermedio: lo suficientemente accesible para estudiantes de primer o segundo año, pero con detalles y referencias que lo hacen valioso también para personas con más experiencia, incluyendo colegas o incluso estudiantes de posgrado que quieran reforzar lo básico (que nunca está de más). 
 
