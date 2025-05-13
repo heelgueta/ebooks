@@ -14,7 +14,19 @@ Además, mencionaré recursos web contemporáneos como:
 - Sitios como *Guess the Correlation*.
 - Videos de YouTube, tutoriales, canales educativos.
 - Tal vez hay cosas valiosas en reels o TikToks (la verdad no conozco, pero esta será la oportunidad de encontrarlos)
-- Memes (aunque puede que vayan quedando pasados de moda, les prometo que siento que los posters demotivacionales eran divertidos).
+- Memes y/o brainrots (aunque afortunada y lamentablemente pasan de moda bastante rápido, poniendo en riesgo la gracia de incorporarlos).
+
+<!-- BEGIN:IMG -->
+
+<figure>
+  <img src="https://raw.githubusercontent.com/heelgueta/edesc/refs/heads/main/src/img/tralalerotralala.png" alt="Tralalero Tralalá" width="188">
+  <figcaption>
+    <p>Tralalero Tralalá. Porco dio e porco alá.</p>
+  </figcaption>
+</figure>
+
+<!-- END:IMG -->
+
 
 La idea es que este material no sea una cápsula aislada, sino un nodo en una red más amplia de aprendizaje posible.
 
