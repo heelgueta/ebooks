@@ -1,4 +1,4 @@
-## 1.3 Advertencias
+### 1.3 Advertencias
 
 Este capítulo no es una nota amarga ni un bajón existencial. Es una advertencia cariñosa y necesaria. Porque no basta con aprender estadística. También hay que saber cuándo desconfiar. De los datos. De los discursos. Y —sobre todo— de cómo se mezclan.
 

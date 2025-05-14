@@ -144,7 +144,7 @@ Las estadísticas no son la verdad con mayúscula. Pero sí nos ayudan a afinar 
 
 Por eso este libro. Por eso esta sección. Por eso este capítulo. Porque si queremos pensar críticamente, vivir en sociedad, y tomar decisiones con mayor sabiduría, y sobrevivir como especie... necesitamos estadística (y probablemente es urgente).
 
-## 1.2 Definiciones
+### 1.2 Definiciones
 
 Antes de avanzar hacia herramientas, gráficos o fórmulas, tenemos que ordenar el lenguaje. No como quien memoriza un glosario, sino como quien aprende a usar bien las palabras porque entiende que, si no lo hacemos, todo lo que viene después se vuelve turbio. Porque si hablamos enredado, creemos que estamos en desacuerdo... cuando en realidad solo estamos usando los mismos términos para cosas distintas.
 
@@ -198,7 +198,7 @@ Algunos de estos conceptos que acabamos de ver —población, muestra, variable,
 Y si en el camino aparecen más conceptos, más nombres raros, más ambigüedades que suenan a contraseña encriptada... tranqui. Este libro está hecho para desenredarlos, para explicarlos con calma, con ejemplos, con comparaciones, y con las herramientas que mejor funcionen. Esto no es un culto de iniciados. Es un idioma. Y cuando lo hablás bien, cambia la forma en que piensas.
 
 
-## 1.3 Advertencias
+### 1.3 Advertencias
 
 Este capítulo no es una nota amarga ni un bajón existencial. Es una advertencia cariñosa y necesaria. Porque no basta con aprender estadística. También hay que saber cuándo desconfiar. De los datos. De los discursos. Y —sobre todo— de cómo se mezclan.
 
