@@ -6,9 +6,11 @@ Si bien podemos usar la estadística como una herramienta técnica, también val
 
 Esta parte se divide en tres capítulos. En el primero, “Conocer”, revisamos el trasfondo conceptual, histórico y filosófico que da sentido a la estadística como disciplina. En el segundo, “Organizar”, veremos cómo convertir fenómenos del mundo en datos legibles. Y en el tercero, “Resumir”, exploraremos las primeras herramientas para describir esos datos de manera clara y útil.
 
-## 1. Trasfondo
+## 1. Antecedentes
 
 Antes de recolectar, ordenar o analizar datos, necesitamos saber por qué lo haríamos. Qué sentido tiene. Cuál es el rol que cumple la estadística en la construcción del conocimiento y en nuestra vida cotidiana. Este capítulo se detiene en esa pregunta inicial: ¿por qué estadística?
+
+### 1.1 Porqué
 
 Exploraremos tres ejes: razones para aprenderla, de las más prácticas a las más existenciales; su historia como disciplina vinculada al poder, a la ciencia y a la toma de decisiones; y finalmente, su lugar dentro de las grandes preguntas filosóficas sobre cómo conocemos el mundo. Todo esto con el ánimo de situar a la estadística como una herramienta que nos puede ayudar a pensar y conocer mejor.
 
