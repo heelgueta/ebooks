@@ -1,6 +1,6 @@
 ## Complemento
 
-Este texto no pretende competir con manuales clásicos ni con tratados académicos densos. Es más bien una curaduría y una traducción. Un resumen con estilo propio, salpicado de ejemplos situados y analogías poco ortodoxas. Para quienes quieran profundizar, recomiendo varios textos que han sido fundamentales en mi camino como estudiante o como profesor, y que sigo sugiriendo a mis estudiantes.
+Este texto no pretende competir con manuales clásicos ni con tratados académicos más densos. Es más bien una curaduría y una traducción. Un resumen con estilo propio, salpicado de ejemplos situados y analogías poco ortodoxas. Para quienes quieran profundizar, recomiendo varios textos que han sido fundamentales en mi camino como estudiante o como profesor, y que sigo sugiriendo a mis estudiantes.
 
 - **Moore (2005)**: "Estadística aplicada básica". Me gusta por su autoridad serena. Ex presidente de la ASA, combina elegancia conceptual con una escritura con opinión. Tiene un tono personal, sobrio pero cercano.
 - **Triola (2009)**: Clásico y sólido. Más técnico, más estructurado, aborda con profundidad distribuciones de probabilidad y fundamentos teóricos que aquí solo tocaremos superficialmente.
@@ -11,7 +11,7 @@ Este texto no pretende competir con manuales clásicos ni con tratados académic
 Además, mencionaré recursos web contemporáneos como:
 
 - [Rpsychologist.com](https://rpsychologist.com) y sus visualizaciones interactivas.
-- Sitios como *Guess the Correlation*.
+- Juegos como *Guess the Correlation* (https://www.guessthecorrelation.com/).
 - Videos de YouTube, tutoriales, canales educativos.
 - Tal vez hay cosas valiosas en reels o TikToks (la verdad no conozco, pero esta será la oportunidad de encontrarlos)
 - Memes y/o brainrots (aunque afortunada y lamentablemente pasan de moda bastante rápido, poniendo en riesgo la gracia de incorporarlos).
@@ -28,5 +28,5 @@ Además, mencionaré recursos web contemporáneos como:
 <!-- END:IMG -->
 
 
-La idea es que este material no sea una cápsula aislada, sino un nodo en una red más amplia de aprendizaje posible.
+La idea es que este material no sea una cápsula aislada, sino un nodo en una red más amplia de aprendizaje posible. Intentaré que vaya mejorando/creciendo cada semestre.
 

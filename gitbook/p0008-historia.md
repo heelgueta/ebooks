@@ -1,19 +1,16 @@
 #### Historia
 
-<!--force-render-->
+Les juro que la estadística no nació porque sólo alguien malvado tenía ganas de obligar a los estudiantes de Ciencias Sociales a seguir estudiando matemáticas, como si no hubiera sido suficientemente terrible en la educación media. Nació mucho antes, cuando la humanidad empezó a contar cosas importantes. Cuántos animales cazó la tribu. Cuánta cebada había almacenada. Cuántos hijos sobrevivieron al invierno.
 
-Pero antes de ver cómo transformarnos con datos, vale la pena mirar hacia atrás. Porque la estadística no nació de un Excel ni de un SPSS ni de un paper. Tiene historia, y como toda buena historia, empieza con una necesidad humana muy básica: *contar cosas importantes*.
+Desde Mesopotamia a Egipto, desde los censos imperiales hasta las cuentas de impuestos, contar fue siempre poder. La palabra “estadística” viene justamente de “status”, el Estado. Porque para gobernar, había que contar: personas, recursos, guerras, muertes.
 
-Al principio, contar era cuestión de supervivencia: animales cazados, ciclos lunares, cuántas personas hay en tu clan, si sembraste más papas este año que el anterior. Pero con el tiempo, la cosa se fue sofisticando. Las civilizaciones comenzaron a censar, a registrar, a ordenar.
+Pero la estadística como disciplina más matemática tiene su auge entre los siglos XIX y XX. Ahí aparecen nombres como:
 
-Los griegos, que son como ese amigo que siempre quiere opinar primero en cualquier tema, nos dejaron algunas bases lógicas, pero no estadística formal. Eso vino mucho después, cuando los estados modernos —en plena consolidación del poder y la burocracia— necesitaban números para gobernar: nacimientos, muertes, impuestos, guerras.
+- **Gauss**, con su famosa curva normal.
+- **Galton**, obsesionado con la herencia y la regresión hacia la media.
+- **Pearson**, el fanático de la correlación (y de graficarlo todo).
+- **Fisher**, que nos dio los fundamentos de la inferencia moderna.
+- **Tukey**, que puso sobre la mesa el análisis exploratorio como práctica legítima.
 
-Ahí aparece la palabra “statistics”, derivada de *status*, relacionada con el Estado. Contar era gobernar. Y todavía lo es.
-
-Ya en el siglo XIX y XX, la estadística empieza a tomar forma como disciplina más matemática. Nombres como **Gauss**, **Laplace**, **Galton**, **Pearson**, **Fisher**, **Tukey** se vuelven parte del panteón. Con ellos llegan cosas como la curva normal, la regresión, el análisis de varianza, la inferencia estadística.
-
-Y de ahí al mundo actual: encuestas, big data, IA, algoritmos predictivos, dashboards con muchos colores y pocos significados. Vivimos en una época de datos, pero eso no garantiza comprensión.
-
----
----
+Hoy la estadística está por todas partes. En la salud pública, en la psicología, en los estudios sociales, en los algoritmos que deciden qué ves en redes sociales. Vivimos en una era donde el problema ya no es la escasez de datos, sino su exceso. Y saber analizarlos es una forma de alfabetización clave.
 
