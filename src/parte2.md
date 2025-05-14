@@ -12,7 +12,7 @@ Antes de recolectar, ordenar o analizar datos, necesitamos saber por qué lo har
 
 Exploraremos tres ejes: razones para aprenderla, de las más prácticas a las más existenciales; su historia como disciplina vinculada al poder, a la ciencia y a la toma de decisiones; y finalmente, su lugar dentro de las grandes preguntas filosóficas sobre cómo conocemos el mundo. Todo esto con el ánimo de situar a la estadística como una herramienta que nos puede ayudar a pensar y conocer mejor.
 
-### Motivación
+#### Motivación
 
 La pregunta "¿por qué aprender estadística?" tiene muchas respuestas posibles. Algunas pueden ser bien mundanas:
 
@@ -51,7 +51,7 @@ Después pensé en repetir la idea con más tiempo y producción... pero se acab
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/H7utyKRTDWM" title="¿Por qué estudiar estadística? - ACMME 2020" frameborder="0" allowfullscreen></iframe>
 
-### Historia
+#### Historia
 
 Les juro que la estadística no nació porque sólo alguien malvado tenía ganas de obligar a los estudiantes de Ciencias Sociales a seguir estudiando matemáticas, como si no hubiera sido suficientemente terrible en la educación media. Nació mucho antes, cuando la humanidad empezó a contar cosas importantes. Cuántos animales cazó la tribu. Cuánta cebada había almacenada. Cuántos hijos sobrevivieron al invierno.
 
@@ -67,7 +67,7 @@ Pero la estadística como disciplina más matemática tiene su auge entre los si
 
 Hoy la estadística está por todas partes. En la salud pública, en la psicología, en los estudios sociales, en los algoritmos que deciden qué ves en redes sociales. Vivimos en una era donde el problema ya no es la escasez de datos, sino su exceso. Y saber analizarlos es una forma de alfabetización clave.
 
-### Conocimiento
+#### Conocimiento
 
 Una de las preguntas más viejas del mundo es: ¿cómo sabemos lo que sabemos? ¿De dónde viene lo que llamamos conocimiento? ¿Es confiable? ¿Podemos distinguir entre saber algo y creerlo nomás porque nos suena bonito?
 

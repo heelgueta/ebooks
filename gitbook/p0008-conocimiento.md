@@ -1,4 +1,4 @@
-### Conocimiento
+#### Conocimiento
 
 Una de las preguntas más viejas del mundo es: ¿cómo sabemos lo que sabemos? ¿De dónde viene lo que llamamos conocimiento? ¿Es confiable? ¿Podemos distinguir entre saber algo y creerlo nomás porque nos suena bonito?
 

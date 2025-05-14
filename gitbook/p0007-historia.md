@@ -1,4 +1,4 @@
-### Historia
+#### Historia
 
 Les juro que la estadística no nació porque sólo alguien malvado tenía ganas de obligar a los estudiantes de Ciencias Sociales a seguir estudiando matemáticas, como si no hubiera sido suficientemente terrible en la educación media. Nació mucho antes, cuando la humanidad empezó a contar cosas importantes. Cuántos animales cazó la tribu. Cuánta cebada había almacenada. Cuántos hijos sobrevivieron al invierno.
 
