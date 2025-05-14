@@ -1,4 +1,4 @@
-#### Porqué
+### Motivación
 
 La pregunta "¿por qué aprender estadística?" tiene muchas respuestas posibles. Algunas pueden ser bien mundanas:
 

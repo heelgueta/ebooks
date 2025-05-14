@@ -6,15 +6,13 @@ Si bien podemos usar la estadística como una herramienta técnica, también val
 
 Esta parte se divide en tres capítulos. En el primero, “Conocer”, revisamos el trasfondo conceptual, histórico y filosófico que da sentido a la estadística como disciplina. En el segundo, “Organizar”, veremos cómo convertir fenómenos del mundo en datos legibles. Y en el tercero, “Resumir”, exploraremos las primeras herramientas para describir esos datos de manera clara y útil.
 
-## 1. Conocer
+## 1. Trasfondo
 
 Antes de recolectar, ordenar o analizar datos, necesitamos saber por qué lo haríamos. Qué sentido tiene. Cuál es el rol que cumple la estadística en la construcción del conocimiento y en nuestra vida cotidiana. Este capítulo se detiene en esa pregunta inicial: ¿por qué estadística?
 
 Exploraremos tres ejes: razones para aprenderla, de las más prácticas a las más existenciales; su historia como disciplina vinculada al poder, a la ciencia y a la toma de decisiones; y finalmente, su lugar dentro de las grandes preguntas filosóficas sobre cómo conocemos el mundo. Todo esto con el ánimo de situar a la estadística como una herramienta que nos puede ayudar a pensar y conocer mejor.
 
-### 1.1 Trasfondo
-
-#### Porqué
+### Motivación
 
 La pregunta "¿por qué aprender estadística?" tiene muchas respuestas posibles. Algunas pueden ser bien mundanas:
 
@@ -53,7 +51,7 @@ Después pensé en repetir la idea con más tiempo y producción... pero se acab
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/H7utyKRTDWM" title="¿Por qué estudiar estadística? - ACMME 2020" frameborder="0" allowfullscreen></iframe>
 
-#### Historia
+### Historia
 
 Les juro que la estadística no nació porque sólo alguien malvado tenía ganas de obligar a los estudiantes de Ciencias Sociales a seguir estudiando matemáticas, como si no hubiera sido suficientemente terrible en la educación media. Nació mucho antes, cuando la humanidad empezó a contar cosas importantes. Cuántos animales cazó la tribu. Cuánta cebada había almacenada. Cuántos hijos sobrevivieron al invierno.
 
@@ -69,9 +67,7 @@ Pero la estadística como disciplina más matemática tiene su auge entre los si
 
 Hoy la estadística está por todas partes. En la salud pública, en la psicología, en los estudios sociales, en los algoritmos que deciden qué ves en redes sociales. Vivimos en una era donde el problema ya no es la escasez de datos, sino su exceso. Y saber analizarlos es una forma de alfabetización clave.
 
-#### Conocimiento
-
-#### Conocimiento
+### Conocimiento
 
 Una de las preguntas más viejas del mundo es: ¿cómo sabemos lo que sabemos? ¿De dónde viene lo que llamamos conocimiento? ¿Es confiable? ¿Podemos distinguir entre saber algo y creerlo nomás porque nos suena bonito?
 
@@ -114,9 +110,7 @@ A lo largo del tiempo, algunas de las preguntas más antiguas del pensamiento se
 <!-- BEGIN:IMG -->
 
 <figure>
-  <a href="https://es.wikipedia.org/wiki/Phineas_Gage" target="_blank">
     <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Phineas_Gage_Cased_Daguerreotype_WilgusPhoto2008-12-19_EnhancedRetouched_Color.jpg" alt="Phineas Gage" width="188">
-  </a>
   <figcaption>
     <p>Phineas Gage, desmitificando la existencia del alma desde 1848™.</p>
   </figcaption>
@@ -211,18 +205,16 @@ La estadística es poderosa, pero esa misma potencia hace que se preste para el 
 No es nuevo. Incluso hay frases célebres que lo dicen con tono burlón:
 
 > “Existen tres tipos de mentiras: mentiras, malditas mentiras y estadísticas.”  
-> *(atribuida a Mark Twain, aunque probablemente se la choreó)*
+> *(atribuida a Mark Twain)*
 
 > “Solo confío en las estadísticas que yo mismo he manipulado.”  
-> *(atribuida a Churchill, aunque igual podría haberlo dicho cualquier político con planilla Excel)*
+> *(atribuida a Churchill, pero probablemente inventada por alguien que perdió una elección y necesitaba un remate elegante)*
 
-El punto es este: los datos no hablan por sí solos. Los interpreta alguien. Y ese alguien puede estar confundido, sesgado... o simplemente ser deshonesto.
+El punto es este: los datos no hablan por sí solos. Los interpreta alguien. Y ese alguien puede estar confundido, sesgado... o simplemente jugando para su propio equipo.
 
-En mis años enseñando, he identificado varios **perfiles clásicos del mal uso estadístico**. No están en los manuales, pero sí en la vida real. Los presento acá con humor, pero el problema es serio.
+En mis años enseñando, he identificado varios perfiles clásicos del mal uso estadístico. No están en los manuales, pero sí en la vida real. Los presento acá con humor, pero el problema es serio.
 
-### El borracho con el poste
-
-Usa los datos como un borracho usa un poste de luz: **no para iluminarse, sino para afirmarse**. Tira un número sin contexto, lo lanza como argumento irrebatible y se va. Es fan de frases como “dato mata relato”, como si cualquier cifra —aunque esté mal medida o peor interpretada— fuera superior a cualquier análisis. A veces cita fuentes rimbombantes (“lo vi en un estudio de Harvard”) sin haber leído más allá del título.
+Primero está el clásico borracho. Ese que se apoya en las estadísticas como quien se apoya en un poste de luz: no para iluminarse, sino para afirmarse. Tira un número sin contexto, lo lanza como argumento irrebatible y se va. Es fan de frases como “dato mata relato”, como si cualquier cifra —aunque esté mal medida o peor interpretada— fuera superior a cualquier análisis. Le encanta decir “está demostrado” y punto.
 
 <!-- BEGIN:IMG -->
 <figure>
@@ -231,9 +223,7 @@ Usa los datos como un borracho usa un poste de luz: **no para iluminarse, sino p
 </figure>
 <!-- END:IMG -->
 
-### El payaso elegante
-
-Tiene flow. Tiene PowerPoint. Usa términos como "regresión logística", "modelos multinivel", o "significancia estadística". Pero no entiende realmente lo que está diciendo. Asume que correlación implica causalidad. O que el p-valor es una prueba divina. Es el tipo de personaje que muestra tres decimales para parecer más científico, aunque sus conclusiones no tengan ni pies ni cabeza. La forma brilla, el fondo patina.
+Después tenemos al payaso elegante. Tiene estilo, tiene presentación. Habla de regresiones, pone gráficos con colores que combinan, y cita papers que leyó a medias. Pero no entiende realmente lo que está haciendo. Confunde correlación con causalidad. Cree que el p-valor es un juicio final. Muestra tres decimales y asume que con eso gana la discusión. La forma es prolija, pero el fondo es espuma.
 
 <!-- BEGIN:IMG -->
 <figure>
@@ -242,20 +232,16 @@ Tiene flow. Tiene PowerPoint. Usa términos como "regresión logística", "model
 </figure>
 <!-- END:IMG -->
 
-### El estafador profesional
-
-Este no se equivoca: **miente con cálculo**. Modifica escalas, esconde datos incómodos, selecciona sólo los casos que le sirven. Hace cherry-picking, exagera efectos, oculta errores. A veces trabaja para una empresa, un gobierno, una campaña política. Otras veces simplemente quiere tener razón. Sabe lo que hace, y lo hace para manipular. No es ignorancia: es dolo.
+Y claro, también está el estafador profesional. Este no se equivoca: sabe perfectamente lo que hace. Recorta los datos que le estorban, muestra sólo el gráfico que le conviene, mueve las escalas, exagera los efectos, omite la letra chica. Su objetivo no es analizar: es convencer. Puede estar vendiéndote un seguro, una política pública o una narrativa ideológica. No es torpeza, es estrategia.
 
 <!-- BEGIN:IMG -->
 <figure>
   <img src="https://raw.githubusercontent.com/heelgueta/edesc/refs/heads/main/src/img/estafador.png" alt="estafador" width="188">
-  <figcaption><p>Cuando la planilla de Excel se convierte en arma.</p></figcaption>
+  <figcaption><p>Cuando el gráfico ya viene con truco.</p></figcaption>
 </figure>
 <!-- END:IMG -->
 
-### Y a veces... los datos son una mierda
-
-No siempre hay mala intención. A veces simplemente **los datos son malos**. Mal recolectados, mal digitados, mal definidos. O incluso irrelevantes para la pregunta que queremos responder. Pero los analizamos igual. Porque ya están ahí. Y claro, si metés basura en el análisis, vas a sacar basura en el resultado. 
+Y a veces, ni siquiera hace falta mala fe. A veces los datos son simplemente débiles, ruidosos, mal recolectados, mal digitados, o irrelevantes para lo que se está preguntando. Pero alguien los agarra igual y se lanza a sacar conclusiones. Porque los tiene. Y claro, si metes basura en el análisis, el resultado no va a ser un milagro.
 
 <!-- BEGIN:IMG -->
 <figure>
@@ -264,14 +250,15 @@ No siempre hay mala intención. A veces simplemente **los datos son malos**. Mal
 </figure>
 <!-- END:IMG -->
 
-Entonces, antes de aprender a calcular medias, desviaciones estándar o coeficientes de correlación, hay que afinar el olfato. **No basta con saber hacer fórmulas**. Hay que saber **pensar con ellas**. Saber cuándo un número huele raro, cuándo un gráfico está incompleto, cuándo una conclusión está inflada.
+Por eso: aprender estadística no es aprender fórmulas. Es aprender a pensar. A oler cuando algo no cuadra. A detectar que falta información. A sospechar de los discursos cerrados y de los números que parecen mágicamente convincentes.
 
-Y sobre todo: hay que estar dispuestx a dudar. A revisar los supuestos. A contrastar otras fuentes. A saber decir: "estos datos no me dicen lo que creés que dicen".
+No es que todo sea mentira. Pero no todo lo que parece ciencia lo es. Y hay discursos que usan numeritos como maquillaje: para sonar modernos, para justificar decisiones cuestionables, para cerrar debates que deberían seguir abiertos.
 
-La estadística no es un oráculo. Pero bien usada, nos da herramientas para detectar bullshit. Y eso, en este mundo, ya es muchísimo.
+Frente a eso, lo que necesitamos no es desconfianza cínica, sino pensamiento crítico bien afilado. La estadística, bien enseñada y bien usada, no es una trampa. Es una brújula. No te dice con certeza qué hacer, pero sí te ayuda a orientarte mejor.
 
-Acá empieza ese camino.
+Así que no se trata sólo de aprender a calcular: se trata de aprender a **entender** cuándo, cómo y por qué estamos midiendo algo. Quién lo mide. Para qué. Con qué consecuencias.
 
+Ahí empieza el verdadero aprendizaje. Y empieza ahora.
 
 ## 2. Organizar
 

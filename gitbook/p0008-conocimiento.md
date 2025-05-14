@@ -1,4 +1,4 @@
-#### Conocimiento
+### Conocimiento
 
 Una de las preguntas más viejas del mundo es: ¿cómo sabemos lo que sabemos? ¿De dónde viene lo que llamamos conocimiento? ¿Es confiable? ¿Podemos distinguir entre saber algo y creerlo nomás porque nos suena bonito?
 
@@ -41,9 +41,7 @@ A lo largo del tiempo, algunas de las preguntas más antiguas del pensamiento se
 <!-- BEGIN:IMG -->
 
 <figure>
-  <a href="https://es.wikipedia.org/wiki/Phineas_Gage" target="_blank">
     <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Phineas_Gage_Cased_Daguerreotype_WilgusPhoto2008-12-19_EnhancedRetouched_Color.jpg" alt="Phineas Gage" width="188">
-  </a>
   <figcaption>
     <p>Phineas Gage, desmitificando la existencia del alma desde 1848™.</p>
   </figcaption>
