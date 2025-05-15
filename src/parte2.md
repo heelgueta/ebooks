@@ -264,85 +264,199 @@ Ahí empieza el verdadero aprendizaje. Y empieza ahora.
 
 ## 2. Organizar
 
-<!--force-render-->
+Hasta ahora hemos hablado de definiciones generales, del sentido de hacer ciencia con datos, y de por qué vale la pena aprender estadística. Pero ahora es momento de poner las manos en la masa. Si queremos analizar datos, necesitamos primero **organizar** esos datos. No es trivial. Hay que tener los ingredientes y utensilios a nuestro alcance antes de cocinar.
 
-_(Sección en desarrollo: **2. Organizar**)_
-
----
+Esta sección está dedicada a entender qué son los datos, cómo se estructuran, qué tipos de variables existen, y cómo armar una matriz de datos que tenga sentido.
 
 ### 2.1 Datos
 
-<!--force-render-->
+En el lenguaje cotidiano, la palabra "dato" puede significar cualquier cosa. "Oye, tengo un dato" puede ser una picada para comer, un cahuín, una anécdota, un secreto, o simplemente una opinión disfrazada. Y está bien. En una conversación entre amigxs, nadie necesita ponerse técnico. Pero cuando entramos al terreno del análisis académico, profesional o científico, tenemos que establecer ciertas convenciones. No para censurar el lenguaje coloquial, sino para **asegurar que estamos hablando de lo mismo**.
 
-_(Sección en desarrollo: **2.1 Datos**)_
+En estadística aplicada, un **dato** no es simplemente un número suelto ni una tabla cualquiera. Es un **valor con un contexto** que le da significado. Es información recolectada de forma sistemática, mediante un procedimiento más o menos definido, con un propósito investigativo. Puede ser el valor en una celda... pero esa celda pertenece a una tabla, que pertenece a un estudio, que fue hecho con una pregunta en mente. Sin ese marco, no es un dato: es solo ruido.
 
----
+Además, los datos **no existen en el vacío**. Son registros sobre algo o alguien. En los estudios cuantitativos, los datos se refieren a *sujetos* (también llamados unidades de análisis) observados a través de ciertas *variables* que, de algún procedimiento definido, fueron registradas o medidas. Esos sujetos pueden ser personas, animales, organizaciones, países, canciones, piedras o sillas.
+
+Lo que define qué constituye un "sujeto" en un estudio depende totalmente del diseño y propósito de ese estudio. Si es una investigación sobre estrategias pedagógicas, tiene sentido estudiar a estudiantes, o a docentes. Si es un estudio sobre nutrición infantil, tiene sentido que los sujetos sean niñxs, y quizás también sus cuidadores. En otro estudio podrían ser regiones, instituciones, barrios. Pero lo importante es que **en un mismo estudio, las unidades de análisis estén al mismo nivel lógico**. No tiene mucho sentido mezclar 231 personas, 23 frutas y 3 planetas en una misma base de datos, a menos que estemos haciendo una obra de teatro o una performance artística. En la investigación cuantitativa, la comparabilidad entre casos importa.
+
+Esa decisión —sobre qué constituye un sujeto y qué variables se registran de él— es una de las más importantes y a veces más invisibles en toda investigación. Pensar bien los datos **empieza mucho antes de tenerlos**. Empieza en la claridad conceptual y metodológica del diseño.
 
 ### 2.2 Variables
 
-<!--force-render-->
+Una **variable** es una característica, atributo, situación o dimensión relevante del sujeto bajo estudio. Es decir, aquello que cambia de un sujeto a otro y que decidimos observar. Las variables que escogemos dependen de nuestro marco teórico, nuestras herramientas metodológicas, nuestros sesgos, nuestras preguntas, nuestra ideología, nuestra curiosidad.
 
-_(Sección en desarrollo: **2.2 Variables**)_
+Y eso está bien.
 
----
+No podemos —ni debemos— estudiar *todas* las variables posibles. Nadie lo hace. Siempre estamos dejando cosas fuera. El punto es **dejar fuera lo que no importa tanto** para enfocarnos en lo que sí nos puede decir algo valioso. Y eso requiere criterio, claridad y honestidad.
+
+¿Tiene sentido medir la longitud exacta en centímetros de la uña izquierda del dedo meñique del pie de cada sujeto? Probablemente no... a menos que tu estudio sea sobre crecimiento ungular en condiciones extremas. Pero si estás haciendo un estudio sobre habilidades aritméticas, probablemente esa variable no aporta. El dato puede existir, pero eso no lo convierte en relevante. Seleccionar variables es **filtrar la realidad**. No es reducirla al absurdo, es enfocarla. Las galaxias también son complejas, y las estudiamos con variables.
+
+La ciencia no es un espejo total de lo real: es una herramienta para recortar lo irrelevante y entender lo importante. Eso no la hace menos poderosa. La hace más útil.
 
 #### Rol
 
-<!--force-render-->
+Una de las primeras cosas que necesitamos entender al mirar nuestras variables es que **no todas cumplen el mismo papel** en una investigación. Y ojo: esto no es solo un tecnicismo. Es parte fundamental de pensar bien. Porque si no tienes claro qué rol cumple una variable, es como si tuvieras una banda donde cada instrumento toca una melodía distinta. Puede sonar interesante un rato... pero no es música. Es caos.
 
-_(Sección en desarrollo: **Rol**)_
+El “rol” de una variable se refiere al lugar que ocupa dentro del razonamiento de un estudio. ¿Es algo que queremos explicar? ¿Es algo que creemos que lo explica? ¿Es algo que podríamos ignorar, pero sospechamos que está interfiriendo? ¿O es simplemente una etiqueta auxiliar que usamos para mantener el orden? Todo eso importa.
 
----
+En los estudios **experimentales** —esos donde el/la investigadxr controla activamente qué pasa y cómo— hay una distinción clásica que probablemente ya escuchaste: variables independientes (VI) y variables dependientes (VD).
+
+La **variable independiente** es la que el investigador manipula deliberadamente o define como un factor que se sospecha causa algo. No es que sea “libre” en un sentido metafísico: es “independiente” porque no depende de otra cosa dentro del estudio. La **variable dependiente**, en cambio, es la que se observa o mide para ver si cambia en respuesta a la otra.
+
+Tomemos un ejemplo simple: imaginemos un experimento donde queremos saber si escuchar música antes de una prueba mejora el rendimiento académico. Podemos dividir a los participantes en dos grupos: uno escucha música clásica antes de rendir una prueba, y el otro no escucha nada. Aquí, la VI es la música (presente vs. ausente) y la VD es el puntaje obtenido en la prueba.
+
+{% hint style="info" %}
+En español usamos “VI” y “VD”, pero en inglés también es común encontrar “IV” (independent variable) y “DV” (dependent variable).
+{% endhint %}
+
+Ahora bien, este lenguaje está pensado para estudios experimentales. Pero en estudios no experimentales (también llamados *correlacionales*), muchas veces especulamos con relaciones similares sin manipular nada. En ese contexto, lo correcto sería hablar de **variable predictora** (VP) y **variable criterio** (VC). Una predice, la otra es el resultado que intentamos explicar.
+
+¿Y usamos bien estos términos? En teoría, sí. En la práctica... muchas veces se confunden, y se usan los de estudios experimentales aunque el diseño no lo sea. No es el fin del mundo, pero conviene tener claro que hay una diferencia. Y que esa diferencia no es solo semántica: habla de cómo concebimos las relaciones entre las cosas que estudiamos.
+
+Más allá de estas distinciones, hay muchos otros roles que una variable puede tener:
+
+A veces, hay variables que no son las que nos interesan directamente, pero que sí sabemos que podrían influir en los resultados. En esos casos, intentamos **controlarlas**: o bien manteniéndolas constantes, o bien midiéndolas y usándolas como **covariables** dentro del análisis. Por ejemplo, si estoy estudiando el efecto del ejercicio sobre la calidad del sueño, y sé que la edad influye en ambas cosas, puedo controlarla para que no distorsione los resultados.
+
+También hay variables **moderadoras**, que cambian la relación entre otras variables. Por ejemplo, una intervención educativa puede ser más efectiva en estudiantes con alta motivación que en quienes no la tienen. Y hay **mediadoras**, que explican cómo ocurre un efecto. Si hacer deporte reduce la depresión porque mejora la autoestima, entonces la autoestima está mediando ese efecto.
+
+Por otro lado, están las **variables extrañas**. Aquellas que no estaban en el radar, no se midieron, no se controlaron... pero que de alguna manera se cuelan en los resultados. Un cambio de clima, un escándalo mediático el día anterior, el ruido de una construcción cercana durante la aplicación del instrumento. No siempre podemos anticiparlas. Pero sí podemos estar atentos a su posibilidad.
+
+Finalmente, hay variables que usamos solo para identificar o mantener el orden: número de folio, código de caso, grupo asignado, etc. No las analizamos, pero sin ellas sería un caos. Son variables auxiliares. Son como los nombres de los archivos: no dicen nada del contenido, pero permiten encontrarlo.
+
+Pensar bien el rol de las variables no es sólo un ejercicio técnico. Es parte de tener claridad sobre lo que estás haciendo y por qué. De lo contrario, puedes terminar interpretando relaciones que no existen, u omitiendo cosas que sí importan.
+
+Organizar no es solo ordenar. Es **hacer visible lo que importa**. Y eso empieza, siempre, por saber qué rol cumple cada cosa que medimos.
 
 #### Naturaleza
 
-<!--force-render-->
+Otra forma fundamental de clasificar las variables —y una de las más útiles al momento de analizarlas— tiene que ver con la **naturaleza del dato que producen**. Es decir, con el tipo de información que entregan cuando se miden. Aquí entramos a una distinción clásica: **variables numéricas** versus **variables categóricas**.
 
-_(Sección en desarrollo: **Naturaleza**)_
+Una **variable numérica** (a veces llamada *cuantitativa*) es aquella que genera valores numéricos con los que tiene sentido realizar operaciones aritméticas. Por ejemplo: sumar, restar, calcular promedios, analizar desviaciones. Variables como la **edad**, el **ingreso mensual**, el **peso corporal**, o el **tiempo de reacción** son ejemplos típicos: no sólo se expresan con números, sino que además esos números representan cantidades medibles.
 
----
+Una **variable categórica** (también llamada *cualitativa*) no se presta para hacer ese tipo de cálculos. En vez de números que significan "cuánto", entrega categorías que significan "cuál". Ejemplos: **sexo/género**, **tipo de música favorita**, **región de residencia**, **diagnóstico clínico**. A veces esas categorías están etiquetadas con números —como cuando 1 = masculino, 2 = femenino— pero eso no significa que el 2 "valga más" que el 1. Son sólo etiquetas.
+
+{% hint style="info" %}
+Este libro prefiere hablar de **variables numéricas** y **categóricas** en vez de cuantitativas y cualitativas, para evitar una confusión común: pensar que las variables cualitativas se estudian solo con metodología cualitativa, o que lo cuantitativo se reduce a las variables cuantitativas. En realidad, muchos estudios cuantitativos usan variables de ambos tipos. Y el lenguaje claro ayuda.
+{% endhint %}
+
+Dentro de las variables numéricas podemos hacer una distinción adicional:
+
+- Las **variables continuas** son aquellas que pueden tomar *cualquier valor dentro de un rango*. No hay "saltos" entre valores posibles. Ejemplo clásico: la **estatura**. Podés medirla en metros, en centímetros, en milímetros, e incluso con decimales. Cuanto más precisa sea tu herramienta, más cifras podés registrar. Si alguien mide 1,72 m, no hay ningún problema en pensar que otra persona puede medir 1,725 m.
+
+- Las **variables discretas**, en cambio, toman valores contables y no tienen valores intermedios entre ellos. Como cuando contamos **número de hijos**, **cantidad de veces que fuiste al cine este mes**, o **cuántas tazas de café tomaste esta semana**. Nadie tomó 2,37 tazas de café. O tomaste 2, o tomaste 3. (Si tomaste media taza, igual cuenta como 1.)
+
+Pero —y esto es clave— **la distinción no siempre es tan clara**. Por ejemplo: la **edad**. En muchos estudios se registra como un número entero (años cumplidos), pero perfectamente podríamos medirla con más precisión: años con decimales, meses, semanas, días. Para un pediatra, un bebé puede tener 1,3 semanas de edad. Para un estudio de adultos mayores, el año es suficiente. Así que una misma variable puede tratarse como continua o discreta, según el contexto.
+
+¿Y qué pasa con variables como el **RUT**? Tiene números, sí, pero ¿es una variable numérica? No necesariamente. El RUT no se usa para sumar, promediar o calcular desviaciones. Es un identificador. Más aún: si incluye letras (como la K del dígito verificador), ya ni siquiera es numérico en forma. Este tipo de variables son auxiliares, sirven para **identificar casos**, y muchas veces el software las trata como *categóricas*, aunque no describan una característica en sentido estricto.
+
+Entonces, ¿por qué es importante esta clasificación? Porque **el tipo de variable condiciona qué herramientas estadísticas podemos usar**. Si una variable es numérica, vamos a poder calcular promedios, desviaciones, correlaciones, histogramas. Si es categórica, vamos a poder hacer tablas de frecuencia, proporciones, gráficos de barras, etc. No se trata de imponer una regla, sino de usar el método que tiene sentido para el tipo de dato que tenemos.
+
+Y aunque hay muchas excepciones y bordes difusos —como veremos más adelante con las variables "cuasicuantitativas"—, la distinción entre numéricas y categóricas ya nos da una base importante para organizar y pensar nuestros análisis.
 
 #### Medida
 
-<!--force-render-->
+Para precisar aún más el tratamiento de las variables, se suele recurrir a una idea propuesta por el psicólogo Stanley Stevens en 1946 y refinada en 1958: la distinción entre **niveles de medición** o **escalas de medida**. Según esta clasificación, las variables pueden ser de cuatro tipos:
 
-[[componente:tabs:p1223]]
+- **Nominales**: categóricas sin orden. Agrupan, pero no jerarquizan. Ejemplo: color de ojos, nacionalidad, tipo de sangre. Si alguien es tipo A y otro tipo B, no hay un "más" o "menos", sólo son diferentes.
 
-_(Sección en desarrollo: **Medida**)_
+- **Ordinales**: categóricas *con* orden. Aquí sí hay jerarquía, aunque las distancias entre categorías no sean iguales. Ejemplo: nivel educacional, satisfacción ("bajo", "medio", "alto"), frecuencia ("nunca", "a veces", "siempre"). Sabemos cuál viene antes y cuál después, pero no cuánto más.
 
----
+- **Intervalo**: numéricas con distancias iguales entre valores, pero *sin un cero absoluto*. Ejemplo típico: temperatura en grados Celsius. El salto de 10°C a 20°C es igual al de 20°C a 30°C, pero 0°C no significa "nada de temperatura", simplemente es un punto arbitrario.
+
+- **Razón**: numéricas con distancia y un cero real. Ejemplo: peso, altura, ingresos. Acá sí tiene sentido decir que algo pesa el doble que otra cosa. El cero indica ausencia de lo medido. 
+
+Una analogía posible es esta: las variables nominales son **cajones**, donde cada cosa está en su compartimiento; las ordinales son **escaleras**, donde los peldaños tienen un orden claro pero no siempre sabemos qué tan alto es cada uno; las de intervalo son **reglas sin punto de inicio**; y las de razón, **reglas con punto cero real**, que permiten hablar de proporciones.
+
+La mayoría de las veces, las variables nominales y ordinales coinciden con las categóricas, y las de intervalo y razón, con las numéricas. Pero no es una regla estricta. Por ejemplo, las escalas tipo **Likert** (muy comunes en psicología y ciencias sociales) son técnicamente ordinales, pero muchas veces se analizan como si fueran numéricas. A eso se les llama a veces **variables cuasicuantitativas**: ordinales numéricas tratadas *como si* fueran de razón, con justificaciones prácticas.
+
+{% hint style="info" %}
+El estadístico E. Lord (1953) lo dijo con elegancia: *“los números no saben de dónde vinieron”*. Es decir, un número por sí solo no dice nada. Lo importante no es la cifra, sino lo que representa. Por eso las escalas de medida son guías, no dogmas. Sirven para pensar con claridad, pero no hay que forzarlas como si fueran leyes inmutables.
+{% endhint %}
+
+Y por supuesto, esta clasificación tiene consecuencias prácticas. ¿Qué hacemos con una variable nominal? Tablas de frecuencia, gráficos de barra, proporciones. ¿Y con una ordinal? Casi lo mismo, pero con más cuidado respecto al orden. ¿Y si es de intervalo o razón? Ahí ya se justifica usar medias, desviaciones estándar, histogramas, modelos estadísticos.
+
+Además, **algunos programas de software estadístico simplifican esta clasificación**. Por ejemplo, SPSS, JASP o Jamovi no distinguen entre variables de intervalo y de razón: las agrupan en una sola categoría llamada *escalar*. Y también incluyen una categoría llamada *identificación*, que sirve para variables que no se analizan directamente, pero ayudan a organizar la base (como el RUT o un código de participante).
+
+Esto no es un error: es una convención. Y como toda convención, lo importante no es que sea perfecta, sino que sepamos usarla bien.
 
 ### 2.3 Matriz
 
-<!--force-render-->
-
-_(Sección en desarrollo: **2.3 Matriz**)_
-
----
+Una vez que entendemos qué son los datos, qué representan, y qué tipo de variables estamos registrando, llega el momento de **organizarlos bien**. No basta con tener la información: hay que disponerla de forma que se pueda leer, analizar y compartir. Para eso usamos lo que se llama una **matriz de datos**, también conocida como *dataset*, *base de datos*, o incluso simplemente *tabla*.
 
 #### Orden
 
-<!--force-render-->
+La forma más común y recomendada de organizar los datos en estadística aplicada es lo que llamamos formato **tidy** (ordenado, limpio). ¿Qué significa esto?
 
-_(Sección en desarrollo: **Orden**)_
+- Cada **fila** representa un **sujeto distinto** (persona, caso, unidad de análisis).
+- Cada **columna** representa una **variable distinta**.
+- Cada **celda** contiene un **dato específico**: el valor de una variable para un sujeto.
 
----
+Este formato no es caprichoso: es el que mejor funciona con casi todos los programas de análisis de datos, y además **tiene sentido lógico**. Es como una planilla bien hecha: podés leerla de izquierda a derecha (comparar variables dentro de un caso) o de arriba hacia abajo (ver cómo se distribuye una variable entre distintos casos).
+
+[INSERTAR IMAGEN DE MATRIZ TIDY]  
+*Caption: Estructura típica de una matriz tidy: sujetos en filas, variables en columnas.*
+
+Pero ojo: no todos los datos vienen así desde el principio. A veces están desordenados, mal estructurados, con nombres larguísimos, o con formatos extraños. Y si no los organizamos bien desde el inicio, **vamos a sufrir después**. Por eso conviene establecer ciertas buenas prácticas desde el comienzo.
+
+Por ejemplo:
+
+- **Nombres de variables**: deben ser cortos, claros, sin tildes ni espacios. Si una variable se llama “Edad (años cumplidos al momento de la recolección)”, podés acortarla a `edad` y guardar la definición completa en otro lado (eso se llama **metadato**: dato sobre los datos).
+- **Formato homogéneo**: si una columna mezcla números con letras, probablemente el software se vuelva loco. Si una variable es numérica, que todos los valores sean numéricos.
+- **Una tabla, una unidad de análisis**: no mezcles personas con países o canciones. Cada matriz debe tener un sujeto consistente.
+
+Si se te ocurre una forma más linda o creativa de organizar, bacán. Pero mientras no tengas una razón muy buena, **mejor seguir el formato estándar**. No por conservadurismo, sino porque funciona.
 
 #### Software
 
-<!--force-render-->
+Los datos pueden manejarse en muchas plataformas. Algunas son muy conocidas y están en casi todos los computadores:
 
-_(Sección en desarrollo: **Software**)_
+- **Excel** o **Google Sheets**: accesibles, visuales, útiles para bases pequeñas o medianas. Muy buenas para comenzar.
+- **LibreOffice Calc**: alternativa libre y gratuita.
+- **SPSS**: software clásico en ciencias sociales, con interfaz amigable, pero no libre.
+- **Jamovi** o **JASP**: programas libres, pensados para ser amigables y poderosos a la vez. Permiten análisis complejos sin necesidad de programar.
+- **R y Python**: lenguajes de programación. Requieren más curva de aprendizaje, pero ofrecen total flexibilidad y transparencia.
 
----
+No tenés que aprenderlos todos. Pero sí **alguno**. Y lo ideal es que sea uno que te permita *ver* lo que estás haciendo y *entender* cómo fluye el análisis. Este libro intentará usar ejemplos que sean traducibles a varios formatos, y en especial mostrar cómo se vería el proceso en contextos reales.
 
 #### Formatos
 
-<!--force-render-->
+Además del software que usamos, hay que entender los **formatos de archivo** en los que los datos se guardan. Esto es clave para compartir, abrir, exportar o simplemente no perder lo que hiciste.
 
-_(Sección en desarrollo: **Formatos**)_
+Algunos formatos son específicos de programas:
 
----
+- `.sav`: de SPSS.
+- `.omv`: de Jamovi.
+- `.jasp`: de JASP.
+- `.xlsx`: de Excel.
+
+Otros son **más universales**, y por lo tanto más recomendables para compartir:
+
+- `.csv` (comma-separated values): texto plano donde cada columna está separada por comas. Muy liviano y legible.
+- `.tsv` (tab-separated values): igual, pero separado por tabulaciones.
+- `.json` o `.xml`: formatos estructurados, muy usados para datos en la web o APIs.
+- `.sql`, `.parquet`, `.feather`: formatos más técnicos, usados para bases grandes o procesos automáticos.
+
+[INSERTAR TABLA COMPARATIVA DE FORMATOS]  
+*Caption: Comparación entre formatos de archivo según tipo, legibilidad, compatibilidad y peso.*
+
+¿Por qué importa esto? Porque **el análisis no es el único paso**. Muchas veces tenés que mandar tus datos a otra persona, guardarlos por años, usarlos en otro software, o procesarlos automáticamente. Saber en qué formato están, y cómo transformarlos, es parte del trabajo.
+
+Y por último —pero no menos importante— una advertencia:
+
+Si los datos están mal desde el inicio, ninguna herramienta los va a salvar. Si registraste mal, si escribiste nombres distintos para una misma categoría, si mezclaste fechas con textos... después vas a perder horas arreglando lo que podrías haber hecho bien de entrada.
+
+Eso tiene un nombre: **GIGO**. *Garbage In, Garbage Out*.
+
+<!-- BEGIN:IMG -->
+<figure>
+  <img src="https://raw.githubusercontent.com/heelgueta/edesc/refs/heads/main/src/img/basura.png" alt="basura" width="188">
+  <figcaption><p>Garbage in, garbage out.</p></figcaption>
+</figure>
+<!-- END:IMG -->
+
+Por eso esta sección se llama “Organizar”. Porque no se trata solo de juntar datos, sino de darles forma, estructura y sentido. Como quien ordena su pieza antes de ponerse a estudiar: no porque sea un ritual, sino porque un espacio ordenado **ayuda a pensar mejor**.
+
+No se trata de rigidez, sino de claridad. No de reglas inamovibles, sino de convenciones que nos hacen la vida más fácil. La organización de los datos no es un paso previo: es el primer paso para pensar con orden. Y pensar con orden es pensar mejor.
+
 
 ## 3. Resumir
 
