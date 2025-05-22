@@ -1,4 +1,4 @@
-# segmentador.R — Limpia /gitbook, junta Markdown, divide por encabezados y genera SUMMARY.md jerárquico
+# segmentador.R — Limpia /gitbook/[libro], junta Markdown, divide por encabezados y genera SUMMARY.md jerárquico
 
 if (!requireNamespace("tidyverse", quietly = TRUE)) install.packages("tidyverse")
 if (!requireNamespace("stringi", quietly = TRUE)) install.packages("stringi")
@@ -6,10 +6,15 @@ if (!requireNamespace("stringi", quietly = TRUE)) install.packages("stringi")
 library(tidyverse)
 library(stringi)
 
+# ==== ESPECIFICA EL LIBRO AQUI ====
+
+#libro <- "edesc"  # <--- CAMBIA ESTA LÍNEA con el nombre del libro
+libro <- "compu"  # <--- CAMBIA ESTA LÍNEA con el nombre del libro
+
 # ==== FUNCIONES ====
 
-# Limpia todos los archivos dentro de /gitbook
-clean_gitbook_dir <- function(path = "gitbook") {
+# Limpia todos los archivos dentro de /gitbook/[libro]
+clean_gitbook_dir <- function(path) {
   if (dir.exists(path)) {
     list.files(path, full.names = TRUE, recursive = TRUE) |> file.remove()
   } else {
@@ -35,8 +40,8 @@ slugify <- function(text) {
     str_remove("^-|-$")
 }
 
-# Junta todos los archivos src/parte*.md en un solo completo.md
-cat_md_files <- function(src_dir = "src", output_file = "completo.md") {
+# Junta todos los archivos src/libro/parte*.md en un solo libro.md
+cat_md_files <- function(src_dir, output_file) {
   files <- list.files(src_dir, pattern = "parte.*\\.md", full.names = TRUE)
   files <- sort(files)
   content <- map_chr(files, ~ paste(readLines(.x, encoding = "UTF-8"), collapse = "\n"))
@@ -79,7 +84,7 @@ split_md_file <- function(input_file, output_dir) {
 }
 
 # Genera el índice GitBook
-generate_summary <- function(file_refs, output_file = "gitbook/SUMMARY.md") {
+generate_summary <- function(file_refs, output_file) {
   writeLines("# Contenidos", output_file)
   
   file_refs <- file_refs %>% arrange(file)
@@ -93,23 +98,42 @@ generate_summary <- function(file_refs, output_file = "gitbook/SUMMARY.md") {
   }
 }
 
+# ==== RUTAS Y CHECKS ====
+
+src_dir <- file.path("src", libro)
+output_dir <- file.path("gitbook", libro)
+md_output <- file.path("src", paste0(libro, ".md"))
+summary_output <- file.path(output_dir, "SUMMARY.md")
+
+if (!dir.exists(src_dir)) {
+  message("No existe la carpeta ", src_dir, ". La creo.")
+  dir.create(src_dir, recursive = TRUE)
+}
+
+md_files <- list.files(src_dir, pattern = "parte.*\\.md", full.names = TRUE)
+if (length(md_files) == 0) {
+  message("No hay archivos parte*.md en ", src_dir, ". Nada que procesar.")
+  quit(save = "no")
+}
+
 # ==== EJECUCIÓN ====
 
-# 1. Limpia gitbook/
-clean_gitbook_dir("gitbook")
+message("Procesando libro: ", libro)
 
-# 2. Asegura salto de línea final en todos los src/parte*.md
-list.files("src", pattern = "parte.*\\.md", full.names = TRUE) |> walk(add_final_line)
+# 1. Limpia carpeta del libro en /gitbook
+clean_gitbook_dir(output_dir)
 
-# 3. Junta en completo.md
-cat_md_files(src_dir = "src", output_file = "completo.md")
+# 2. Asegura salto de línea final en cada archivo
+walk(md_files, add_final_line)
 
-# 4. Segmenta completo.md y genera archivos
+# 3. Junta en src/libro.md
+cat_md_files(src_dir = src_dir, output_file = md_output)
+
+# 4. Segmenta src/libro.md
 global_counter <- 0
-refs <- split_md_file("completo.md", output_dir = "gitbook")
+refs <- split_md_file(md_output, output_dir = output_dir)
 
-# 5. Genera índice
-generate_summary(refs)
+# 5. Genera índice SUMMARY.md
+generate_summary(refs, output_file = summary_output)
 
-#Limpieza
-#file.remove("completo.md")
+message("Listo. Segmentación completa en: ", output_dir)
