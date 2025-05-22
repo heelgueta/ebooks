@@ -1,0 +1,6 @@
+### Revistas
+
+El panorama de revistas científicas en psicología incluye una variedad de publicaciones nacionales e internacionales que conviene conocer. En el ámbito chileno, destacamos la Revista de Psicología publicada por la Universidad de Chile, que aborda temáticas clínicas, sociales y educacionales con una fuerte presencia empírica. Otra publicación relevante es Psykhe, de la Pontificia Universidad Católica, reconocida por su rigurosidad metodológica y su diversidad temática. También mencionamos *Terapia Psicológica*, que se enfoca más directamente en la práctica clínica y la intervención.
+
+Fuera del contexto nacional, existen revistas como la *Iberoamerican Journal of Psychology and Public Policy*, que busca articular producción académica en español con problemas de interés público. Y por supuesto, discutimos revistas de alto impacto global como la *Annual Review of Psychology*, que publica extensas revisiones temáticas realizadas por referentes internacionales del campo y que son altamente citadas. Estas publicaciones no presentan investigaciones originales sino síntesis críticas del estado del arte, por lo que resultan especialmente útiles para introducirse en un tema y mapear sus principales controversias.
+

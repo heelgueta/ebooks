@@ -1,0 +1,8 @@
+### Sci-Hub
+
+En este contexto emerge la figura de Alexandra Elbakyan, programadora kazaja y creadora de Sci-Hub, una plataforma que permite acceder gratuitamente a millones de artículos científicos que normalmente estarían protegidos por barreras de pago. Sci-Hub ha sido llamado por algunos "el Pirate Bay de la ciencia", y Elbakyan ha sido reconocida incluso por medios tradicionales como *Nature* o *The Guardian* como una de las figuras más influyentes en la lucha por el acceso al conocimiento. Su figura polariza: para algunos es una heroína de la ciencia abierta; para otros, una criminal digital.
+
+La defensa intelectual de la piratería que sostiene Elbakyan se basa en la idea de que el conocimiento científico, especialmente aquel financiado con fondos públicos, debe ser un bien común, no una mercancía. Desde esta perspectiva, Sci-Hub actúa como un correctivo ante un sistema editorial que excluye a grandes sectores de la comunidad académica global.
+
+No obstante, es importante tener en cuenta los riesgos y contradicciones que este tipo de iniciativas implica. El uso de plataformas como Sci-Hub puede vulnerar leyes de propiedad intelectual y exponer a usuarios a posibles sanciones legales. También puede consolidar una lógica de informalidad que, si bien útil en el corto plazo, no necesariamente resuelve el problema estructural. Por ello, más que romantizar o condenar de forma automática su existencia, es necesario comprender el fenómeno en su complejidad, reconocer la injusticia del sistema actual y abogar por reformas estructurales que garanticen un acceso equitativo y legal al conocimiento científico.
+
