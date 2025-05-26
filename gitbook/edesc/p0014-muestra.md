@@ -1,0 +1,4 @@
+#### Muestra
+
+Para hablar bien de esto, necesitamos entender qué significa “población” y “muestra”. Si yo quiero estudiar todos los Pokémon existentes -actualmente 1025-, esa sería mi población. Si me concentro solo en los originales de la primera generación (n = 151), esa sería una muestra. Idealmente, una muestra representa bien a su población: no basta con que sea más chica, tiene que ser seleccionada de manera que nos diga algo útil. Lo mismo pasa si estudio a todos los adolescentes chilenos: no puedo simplemente encuestar a los que tengo cerca y asumir que eso vale para todo el país. La idea de “muestra” está amarrada a esa responsabilidad: reducir sin distorsionar. Cómo conseguir o distinguir una "buena muestra" es una tarea que será más pertinente discutir con detalle cuando hablemos de estadística inferencial, pero valdrá la pena tenerlo en mente.
+

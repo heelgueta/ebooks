@@ -30,17 +30,17 @@ Todas esas razones son válidas. Ninguna es completamente mejor que otra. Lo imp
 
 Además, estas razones pueden cambiar con el tiempo. A veces uno entra solo para cumplir, pero algo se activa en el camino. Una pregunta que te queda resonando. Una herramienta que te hace clic. Una curiosidad que se despierta. Y sin darte cuenta, pasas de aguantar la estadística... a convertirte en el profe (quién sabe).
 
-Durante la pandemia, le hice esta misma pregunta —¿por qué es importante estudiar estadística (en una carrera como Psicología?)— a varios colegas profesores de metodologías cuantitativas, desde el norte al sur de Chile. Les pedí respuestas breves, en formato video, que recogieran sus perspectivas docentes. El resultado fue este pequeño registro colectivo, que hoy quiero compartir contigo:
+Durante la pandemia, le hice esta misma pregunta -¿por qué es importante estudiar estadística (en una carrera como Psicología?)- a varios colegas profesores de metodologías cuantitativas, desde el norte al sur de Chile. Les pedí respuestas breves, en formato video, que recogieran sus perspectivas docentes. El resultado fue este pequeño registro colectivo, que hoy quiero compartir contigo:
 
 👉 [Ver video en YouTube: ¿Por qué estudiar estadística? (ACMME 2020)](https://youtu.be/H7utyKRTDWM)
 
 ---
 
-La mayoría de quienes aparecen ahí forman parte de la **Asociación Chilena de Metodología, Medición y Evaluación (ACMME)**, una sociedad científica legalmente constituida de la cual soy miembro fundador. Pero —honestamente— también es un grupo de colegas y amigxs que comparten el gusto por enseñar estadística, análisis de datos y psicometría en el contexto de las ciencias sociales.
+La mayoría de quienes aparecen ahí forman parte de la **Asociación Chilena de Metodología, Medición y Evaluación (ACMME)**, una sociedad científica legalmente constituida de la cual soy miembro fundador. Pero -honestamente- también es un grupo de colegas y amigxs que comparten el gusto por enseñar estadística, análisis de datos y psicometría en el contexto de las ciencias sociales.
 
 Y sí: el nombre se parece a "ACME", como en los dibujos del Coyote y el Correcaminos. No es coincidencia. No pudimos resistir.
 
 Una de las respuestas se cortó misteriosamente en el archivo original (cosas de la tecnología pandémica), pero el resto quedó intacto. En algún momento pensé en repetir la idea con más producción, pero se acabó la pandemia y el impulso se diluyó. Quizás algún día lo retome con más calma.
 
-Mientras tanto, te dejo ese pequeño collage como testimonio del entusiasmo —y a veces también de la frustración— que puede provocar aprender y enseñar estadística en carreras como Psicología.
+Mientras tanto, te dejo ese pequeño collage como testimonio del entusiasmo -y a veces también de la frustración- que puede provocar aprender y enseñar estadística en carreras como Psicología.
 

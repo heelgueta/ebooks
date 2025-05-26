@@ -1,6 +1,6 @@
 ### 1.3 Advertencias
 
-Este capítulo no es una nota amarga ni un bajón existencial. Es una advertencia cariñosa y necesaria. Porque no basta con aprender estadística. También hay que saber cuándo desconfiar. De los datos. De los discursos. Y —sobre todo— de cómo se mezclan.
+Este capítulo no es una nota amarga ni un bajón existencial. Es una advertencia cariñosa y necesaria. Porque no basta con aprender estadística. También hay que saber cuándo desconfiar. De los datos. De los discursos. Y -sobre todo- de cómo se mezclan.
 
 La estadística es poderosa, pero esa misma potencia hace que se preste para el mal. Como una motosierra: corta árboles, pero también puede dejar la cagada si no se usa con juicio. Y en la historia de las ciencias sociales, de la política, del marketing e incluso de la salud pública, hay muchos ejemplos de mal uso, abuso y chamullo estadístico.
 
@@ -16,7 +16,9 @@ El punto es este: los datos no hablan por sí solos. Los interpreta alguien. Y e
 
 En mis años enseñando, he identificado varios perfiles clásicos del mal uso estadístico. No están en los manuales, pero sí en la vida real. Los presento acá con humor, pero el problema es serio.
 
-Primero está el clásico borracho. Ese que se apoya en las estadísticas como quien se apoya en un poste de luz: no para iluminarse, sino para afirmarse. Tira un número sin contexto, lo lanza como argumento irrebatible y se va. Es fan de frases como “dato mata relato”, como si cualquier cifra —aunque esté mal medida o peor interpretada— fuera superior a cualquier análisis. Le encanta decir “está demostrado” y punto.
+##### Borracho
+
+Primero está el clásico borracho. Ese que se apoya en las estadísticas como quien se apoya en un poste de luz: no para iluminarse, sino para afirmarse. Tira un número sin contexto, lo lanza como argumento irrebatible y se va. Es fan de frases como “dato mata relato”, como si cualquier cifra -aunque esté mal medida o peor interpretada- fuera superior a cualquier análisis. Le encanta decir “está demostrado” y punto.
 
 <!-- BEGIN:IMG -->
 <figure>
@@ -24,6 +26,8 @@ Primero está el clásico borracho. Ese que se apoya en las estadísticas como q
   <figcaption><p>Apunto de caer. Pero con Excel abierto.</p></figcaption>
 </figure>
 <!-- END:IMG -->
+
+##### Payaso
 
 Después tenemos al payaso elegante. Tiene estilo, tiene presentación. Habla de regresiones, pone gráficos con colores que combinan, y cita papers que leyó a medias. Pero no entiende realmente lo que está haciendo. Confunde correlación con causalidad. Cree que el p-valor es un juicio final. Muestra tres decimales y asume que con eso gana la discusión. La forma es prolija, pero el fondo es espuma.
 
@@ -34,14 +38,18 @@ Después tenemos al payaso elegante. Tiene estilo, tiene presentación. Habla de
 </figure>
 <!-- END:IMG -->
 
+##### Estafador
+
 Y claro, también está el estafador profesional. Este no se equivoca: sabe perfectamente lo que hace. Recorta los datos que le estorban, muestra sólo el gráfico que le conviene, mueve las escalas, exagera los efectos, omite la letra chica. Su objetivo no es analizar: es convencer. Puede estar vendiéndote un seguro, una política pública o una narrativa ideológica. No es torpeza, es estrategia.
 
 <!-- BEGIN:IMG -->
 <figure>
   <img src="https://raw.githubusercontent.com/heelgueta/edesc/refs/heads/main/src/img/estafador.png" alt="estafador" width="188">
-  <figcaption><p>Cuando el gráfico ya viene con truco.</p></figcaption>
+  <figcaption><p>Cuando el gráfico viene con trampitas.</p></figcaption>
 </figure>
 <!-- END:IMG -->
+
+##### Basura
 
 Y a veces, ni siquiera hace falta mala fe. A veces los datos son simplemente débiles, ruidosos, mal recolectados, mal digitados, o irrelevantes para lo que se está preguntando. Pero alguien los agarra igual y se lanza a sacar conclusiones. Porque los tiene. Y claro, si metes basura en el análisis, el resultado no va a ser un milagro.
 
