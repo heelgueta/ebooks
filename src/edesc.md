@@ -177,7 +177,11 @@ Una de las preguntas más viejas del mundo es: ¿cómo sabemos lo que sabemos? �
 
 Esa pregunta, que parece tan básica, ha obsesionado a filósofos, científicos, poetas y nerds de todas las épocas. Y aunque la estadística parece estar más cerca de las matemáticas que de la filosofía, en realidad está profundamente atravesada por esa búsqueda. Porque ¿qué otra cosa es recolectar, organizar y analizar datos, sino un intento por conocer de manera más clara, más rigurosa, más compartida?
 
+##### Antiguedad
+
 Volvamos un poco atrás. En la Grecia antigua, **Pitágoras** andaba diciendo que todo era número. **Platón**, que había un mundo ideal, perfecto, y que lo que veíamos era apenas una sombra de ese mundo verdadero. **Aristóteles**, que la clave estaba en observar, clasificar y sistematizar lo que tenemos aquí, en este mundo concreto, sin tanta volada mística. Platón pensaba que el conocimiento era recordar ideas puras que ya estaban en el alma. Aristóteles, más pragmático, decía que había que mirar, medir, observar. Los dos sentaron bases: uno para la deducción lógica, el otro para el empirismo. Y de esa tensión nace todo lo demás. Uno apuntaba pa’ arriba, el otro pa’ abajo. Y si somos honestos, ambos tenían algo de razón (y ambos estaban equivocados en un montón de cosas).
+
+##### Modernidad
 
 Siglos más tarde, aparecen otros personajes. **Descartes**, por ejemplo, en plena modernidad, se cuestionaba si podía estar seguro de algo, incluso su existencia. "Pienso, luego existo", concluyó, pero mientras tanto también estaba inventando el plano cartesiano, que nos permite ubicar cosas en el espacio con dos ejes. Hermoso crossover entre filosofía y geometría. Estaba preguntándose qué es real, mientras diseñaba un sistema para ubicar lo real. Un visionario multitasking.
 
@@ -187,11 +191,13 @@ Y mientras todos ellos peleaban con palabras, otros lo hacían con telescopios. 
 
 Así surgió lo que hoy llamamos método científico. Observación → hipótesis → experimentación → conclusión. Y aunque se ve lindo en esquemas de PowerPoint, en la práctica siempre fue más sucio, más torpe, más humano. Las ideas no siempre se confirman, los datos no siempre calzan, y los científicos no siempre son objetivos.
 
+##### Falsacionismo
+
 Con el tiempo, el entusiasmo por la ciencia como camino al conocimiento perfecto derivó en una corriente llamada positivismo, que creía que todo podía medirse, predecirse y explicarse con suficiente método. Una visión optimista, pero que también pecaba de ingenua. No todo lo importante se deja medir. No todos los fenómenos siguen reglas fijas. Y no todo dato es puro.
 
-Personalmente, me siento más cómodo reconociendo que el conocimiento es incierto, cambiante, que está en construcción constante. Que no tenemos verdades absolutas, pero sí herramientas para distinguir ideas más o menos razonables, más o menos útiles. Que lo importante no es tener razón, sino saber cuándo estamos equivocados.
+Un punto de vista, que me parece más razonable, es reconocer que el conocimiento es incierto, cambiante, que está en construcción constante. Que no tenemos verdades absolutas, pero sí herramientas para distinguir ideas más o menos razonables, más o menos útiles. Que lo importante no es tener razón, sino saber cuándo estamos equivocados.
 
-Ahí entra **Karl Popper**. No porque haya inventado la ciencia (ja ja), sino porque propuso una forma elegante de entenderla. Popper decía que las teorías científicas no son valiosas por ser verdaderas, sino por ser **refutables**. Es decir, una teoría es científica si podemos imaginar una situación en la que pueda fallar. Si no hay forma de que se equivoque, entonces no es ciencia: es dogma.
+Un filosofo importante en esta dirección es **Karl Popper**. No es que haya inventado la ciencia, pero propuso una forma elegante de entenderla. Popper decía que las teorías científicas no son valiosas por ser verdades inamovibles , sino por ser **refutables**. Es decir, una teoría es científica si podemos imaginar una situación en la que pueda fallar. Si no hay forma de que se equivoque, entonces no es ciencia: es dogma.
 
 A esta idea la llamó **falsacionismo**. Y sigue siendo una de las piedras angulares del pensamiento científico actual. Una buena teoría no es la que explica todo, sino la que se arriesga a fallar.
 
@@ -205,7 +211,9 @@ La ciencia, según esta mirada, no avanza confirmando cosas una y otra vez, sino
 
 Así funciona el conocimiento: se ajusta, se transforma, se discute. No es absoluto, pero tampoco es caprichoso. Si una idea no cambia nunca, aunque sus predicciones no se cumplan, o si ni siquiera es capaz de generar predicciones contrastables, entonces no es ciencia. Es otra cosa. Puede ser filosofía, ideología, religión, narrativa… pero no ciencia. Y eso no necesariamente las invalida, pero las pone en otro plano. El conocimiento científico, en cambio, vive y respira en la frontera entre lo que sabemos y lo que estamos dispuestos a revisar.
 
-Y acá entra la estadística. Porque en este contexto —un mundo lleno de datos, de afirmaciones, de ideas que compiten— necesitamos herramientas que nos permitan observar patrones, contrastar hipótesis, estimar cuánto confiar en un resultado. La estadística no reemplaza al pensamiento crítico: lo **afila**. No garantiza respuestas correctas, pero sí permite hacer mejores preguntas, con mejores datos, y con mayor conciencia de sus limitaciones. Nos obliga a preguntarnos: ¿qué tan raro es este resultado?, ¿cuánta variación hay?, ¿qué tanto podemos generalizar?, ¿qué tan probable es que esto sea solo ruido?
+##### El rol de la estadístia 
+
+En este contexto —un mundo lleno de datos, de afirmaciones, de ideas que compiten— necesitamos herramientas que nos permitan observar patrones, contrastar hipótesis, estimar cuánto confiar en un resultado. La estadística no reemplaza al pensamiento crítico: lo **afila**. No garantiza respuestas correctas, pero sí permite hacer mejores preguntas, con mejores datos, y con mayor conciencia de sus limitaciones. Nos obliga a preguntarnos: ¿qué tan raro es este resultado?, ¿cuánta variación hay?, ¿qué tanto podemos generalizar?, ¿qué tan probable es que esto sea solo ruido?
 
 La estadística no es la enemiga de la filosofía. Es su hija rebelde (pero igual amigui). Nació de sus preguntas, pero eligió intentar responder con otras herramientas. Donde la filosofía planteó dudas fundamentales sobre cómo conocer, la estadística dijo: “intentémoslo así”. Y no se fue por el camino fácil: abrazó la incertidumbre, se acostumbró a los márgenes de error, al “más o menos”. No busca certezas absolutas, sino probabilidades razonables. Y, como buena hija, no solo respondió las preguntas que le plantearon... también le devolvió nuevas preguntas a su madre.
 
