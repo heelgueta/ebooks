@@ -8,8 +8,8 @@ library(stringi)
 
 # ==== ESPECIFICA EL LIBRO AQUI ====
 
-#libro <- "edesc"  # <--- CAMBIA ESTA LÍNEA con el nombre del libro
-libro <- "compu"  # <--- CAMBIA ESTA LÍNEA con el nombre del libro
+libro <- "edesc"  # <--- CAMBIA ESTA LÍNEA con el nombre del libro
+#libro <- "compu"  # <--- CAMBIA ESTA LÍNEA con el nombre del libro
 
 # ==== FUNCIONES ====
 

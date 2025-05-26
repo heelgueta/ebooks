@@ -38,3 +38,4 @@ También planeo incluir secciones adicionales (bonus) con **ejemplos aplicados e
 Este libro es una invitación. A perderle el miedo a los números, a cuestionar los datos que consumimos, a participar en la conversación pública con más herramientas. A entender que no se trata solo de calcular, sino de **interpretar**, **comunicar**, y **pensar críticamente con datos**.
 
 Bienvenidxs.
+
