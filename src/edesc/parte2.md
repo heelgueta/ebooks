@@ -90,7 +90,7 @@ Un filosofo importante en esta dirección es **Karl Popper**. No es que haya inv
 
 A esta idea la llamó **falsacionismo**. Y sigue siendo una de las piedras angulares del pensamiento científico actual. Una buena teoría no es la que explica todo, sino la que se arriesga a fallar.
 
-El filósofo **Bertrand Russell**, mentor parcial de Popper, ilustró esta idea con un ejemplo que me gusta mucho: imaginá que yo digo que hay una tetera flotando en el espacio, entre la Tierra y Marte. Pero es tan pequeña y está tan lejos que ningún telescopio podrá jamás detectarla. ¿Tiene sentido creer en esa tetera? ¿Hay alguna forma de demostrar que no está ahí? No. ¿Entonces debo creer que sí está ahí? Tampoco. Lo que no puede refutarse no es necesariamente falso... pero tampoco tiene mucho valor como conocimiento.
+El filósofo **Bertrand Russell** (influencia de Popper), ilustró esta idea con un ejemplo que me gusta mucho: imagina que yo digo que hay una tetera flotando en el espacio, entre la Tierra y Marte. Pero es tan pequeña y está tan lejos que ningún telescopio podrá jamás detectarla. ¿Tiene sentido creer en esa tetera? ¿Hay alguna forma de demostrar que no está ahí? No. ¿Entonces debo creer que sí está ahí? Tampoco. Lo que no puede refutarse no es necesariamente falso... pero tampoco tiene mucho valor como conocimiento.
 
 Aunque Rusell pensaba en esta idea como una metafora para Dios (era SUPER áteo), Popper aplicó este criterio a muchas teorías no religiosas influyentes de su época. Criticaba el psicoanálisis, el marxismo y algunas corrientes del positivismo porque, según él, podían explicar cualquier cosa, acomodando sus postulados para que siempre parecieran tener razón. Eso las hacía impermeables al error. Y por tanto, menos científicas.
 
